@@ -1,0 +1,70 @@
+body {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 0;
+    border: solid 2px;
+    display: block;
+}
+
+nav {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbutton {
+    padding: 3px 10px;
+    border: solid 1px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(168, 160, 160); 
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.titulo {
+    margin-top: 0;
+    padding: 0.5em;
+    text-align: center;
+    border: solid 2px;
+    display: block;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    display: block;
+}
+
+.right {
+    float: left;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#logo, #imagen {
+    width: 90%;
+    margin-top: 3em;
+    border-radius: 3px;
+    border: solid 1px beige;
+}
+
+ul {
+    list-style: none;
+}
+
+.sangria {
+    text-indent: 1em;
+}
