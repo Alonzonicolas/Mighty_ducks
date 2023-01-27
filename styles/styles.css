@@ -3,6 +3,11 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    display: block;
 }
 
 #banner {
@@ -11,26 +16,36 @@ body {
     margin-bottom: 0;
     border: solid 2px;
     display: block;
+    box-sizing: border-box;
 }
 
-nav {
-    float: right;
+.nav {
+    text-align: right;
+    position: relative;
+    top: 8px;
+    right: 10px;
 }
 
-a {
+.nav > a {
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .navbutton {
     padding: 3px 10px;
-    border: solid 1px;
+    border: solid 1px black;
     background-color: blue;
     color: white;
-    box-shadow: 5px 5px 5px rgb(168, 160, 160); 
+    box-shadow: 4px 4px 2px rgb(53, 50, 50); 
+}
+
+.selected {
+    background-color: olivedrab;
 }
 
 h1 {
     font-size: 50px;
+    margin: 5px;
 }
 
 .titulo {
@@ -39,30 +54,35 @@ h1 {
     text-align: center;
     border: solid 2px;
     display: block;
+    box-sizing: border-box;
+}
+
+.container {
+    width:100%;
+    margin:0 auto;
+    position:relative;
 }
 
 .left {
-    float: left;
     width: 20%;
-    display: block;
+    display: inline-block;
 }
 
 .right {
-    float: left;
-    width: 70%;
+    width: 80%;
+    display: inline-block;
+    position: absolute;
     margin-top: 5%;
     margin-left: 5%;
 }
 
 #logo, #imagen {
     width: 90%;
-    margin-top: 3em;
+    box-sizing: content-box;
+    margin: 2em 0;
+    margin-left: 1em;
     border-radius: 3px;
     border: solid 1px beige;
-}
-
-ul {
-    list-style: none;
 }
 
 .sangria {
