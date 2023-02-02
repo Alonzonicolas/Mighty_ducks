@@ -8,19 +8,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-    display: block;
-}
-
-#banner {
-    width: 70%;
-    margin: auto;
-    margin-bottom: 0;
-    border: solid 2px;
-    display: block;
-    box-sizing: border-box;
-}
-
 .nav {
     display: flex;
     justify-content: space-between;
@@ -67,13 +54,29 @@ h1 {
 
 .header {
     margin: 5px;
+    margin-bottom: 0;
     padding: 1%;
     border-top: solid 50px rgb(240, 240, 10);
     border-bottom: solid 10px rgb(240, 240, 10);
+    overflow: hidden;
+    position: relative;
+}
+
+#header_content {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     box-sizing: content-box;
+}
+
+#banner {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
 }
 
 #logoHeader {
@@ -102,15 +105,6 @@ h1 {
     flex-grow: 1;
 }
 
-.left {
-    width: 80%;
-    margin-left: 5%;
-}
-
-.right {
-    width: 20%;
-}
-
 .image {
     width: 300px;
     height: max-content;
@@ -130,4 +124,45 @@ hr {
 
 .list-circle {
     list-style-type: circle;
+}
+
+dd {
+    margin: 3% 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+th {
+    padding: 15px;
+    background-color: darkslategrey;
+    color: rgb(240, 240, 10);
+}
+
+td {
+    background-color: lightblue;
+    color: black;
+}
+
+.content a {
+    color: tomato;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
